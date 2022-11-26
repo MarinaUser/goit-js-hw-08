@@ -38,6 +38,6 @@ function onStorageData() {
 function dataInputValue(data) {
   formData.email = data.email;
   formData.message = data.message;
-  refs.form.target.email.value = formData.email;
-  refs.form.target.message.value = formData.message;
+  refs.form.elements.email.value = formData.email;
+  refs.form.elements.message.value = formData.message;
 }
